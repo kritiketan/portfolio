@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "argon-design-system-angular": {
+    "portfolio": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -96,7 +96,7 @@
         }
       }
     },
-    "argon-design-system-angular-e2e": {
+    "portfolio-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
