@@ -10,11 +10,11 @@ import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes =[
-    //{ path: 'home',             component: HomeComponent },
+    { path: 'home',             component: HomeComponent },
     { path: 'me',     component: ProfileComponent },
-    // { path: 'register',           component: SignupComponent },
-    // { path: 'landing',          component: LandingComponent },
-    // { path: 'login',          component: LoginComponent },
+    { path: 'register',           component: SignupComponent },
+    { path: 'landing',          component: LandingComponent },
+    { path: 'login',          component: LoginComponent },
     { path: '', redirectTo: 'me', pathMatch: 'full' }
 ];
 
