@@ -14043,7 +14043,7 @@ textarea[resize=horizontal] {
 }
 
 .icon-xl+.icon-text {
-    width: calc(100% - $icon-size-xl - 1)
+    width: calc(100% - #{$icon-size-xl} - 1)
 }
 
 .icon-lg {
